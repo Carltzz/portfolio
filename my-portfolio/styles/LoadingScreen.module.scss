@@ -1,0 +1,28 @@
+.loadingScreenContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    z-index: 100;
+}
+
+.loadingScreen {
+    color: white;
+    position: relative;
+}
+
+.loaded {
+    animation: loadingFadeOut 0.75s ease-out forwards;
+}
+
+@keyframes loadingFadeOut {
+    from {
+        opacity: 1;
+    } to {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}

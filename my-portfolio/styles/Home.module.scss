@@ -1,0 +1,70 @@
+$navIconColor: #f0f0f0;
+
+.appContainer {
+    background-color: #0f0f0f;
+}
+
+.appContainer section {
+    scroll-snap-align: start;
+}
+
+.hero {
+    height: calc(100vh);
+    background: url('/img/home-hero-xl.jpg') no-repeat center top;
+    background-size: cover;
+}
+
+.centeredContent {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+// +-------------------------------------+
+// | HERO SECTION                        |
+// +-------------------------------------+
+
+.heroContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #0f0f0f7f;
+    color: #f0f0f0;
+    padding: 10% 10% 0% 10%;
+}
+
+.heroContainer h1 {
+    color: aqua;
+    font-size: 48px;
+}
+
+.heroContainer h2 {
+    font-size: 24px;
+}
+
+.heroContainer p {
+    font-size: 18px;
+}
+
+// --------------------------------------
+
+
+
+// +-------------------------------------+
+// | ABOUT ME SECTION                    |
+// +-------------------------------------+
+
+.aboutMe {
+    height: 100vh;
+    background-color: #0f0f0f;
+}
+
+.aboutMeContainer {
+    padding: 10% 10% 0% 10%;
+    color: white;
+}
+
+// --------------------------------------
+
+.navIcon {
+    color: $navIconColor;
+}
